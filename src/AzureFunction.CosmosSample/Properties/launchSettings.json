@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "AzureFunction.CosmosSample": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7004"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 33213,
+      "useSSL": false
+    }
+  }
+}
